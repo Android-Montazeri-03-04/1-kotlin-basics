@@ -90,7 +90,7 @@ if (number % 2 == 0) {
 ```kotlin
 fun main() {
     print("یک عدد وارد کنید: ")
-    val number = readLine()?.toIntOrNull() ?: return
+    val number = readln().toInt()
     when {
         number > 0 -> println("عدد مثبت است")
         number < 0 -> println("عدد منفی است")
