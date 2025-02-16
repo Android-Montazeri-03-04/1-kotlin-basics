@@ -137,7 +137,7 @@ fun main() {
     println("یک عدد بین ۱ تا ۱۰۰ حدس بزنید!")
     while (attempts > 0) {
         print("حدس شما: ")
-        val guess = readLine()?.toIntOrNull() ?: continue
+        val guess = readln().toInt()
 
         if (guess == target) {
             println("تبریک! عدد را درست حدس زدید 🎉")
